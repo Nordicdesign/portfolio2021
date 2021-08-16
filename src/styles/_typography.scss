@@ -1,0 +1,12 @@
+html,body {
+  color: $main;
+  font-family: $font-stack;
+  font-size: 200%;
+}
+
+h1 {
+  font-size: 6rem;
+  color: black;
+  margin-bottom: .2em;
+  text-shadow: 4px 4px 0 #ccc;
+}

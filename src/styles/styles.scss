@@ -1,0 +1,39 @@
+@import "variables";
+@import "typography";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  background: #f1f2f3;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  min-height: 100vh;
+  padding: $baseline;
+
+}
+
+.sec-01-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sec-02-tagline {
+  background: tomato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sec-03-portfolio {
+  background: $cream;
+}
