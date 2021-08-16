@@ -47,8 +47,6 @@ module.exports = {
       cleanStaleWebpackAssets: true,
       protectWebpackAssets: false
     }),
-    new GenerateSW(),
-    new Dotenv(),
   ],
   optimization: {
     minimize: true,
